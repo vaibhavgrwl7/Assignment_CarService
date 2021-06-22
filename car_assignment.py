@@ -293,7 +293,7 @@ def custmenu():
 admin='False'   
 print("\n\n********Welcome to the Car Rental Service********\n\n")
 print("To enable Admin Mode enter y, otherwise press N for Customer")
-*Will ask user if he/she wants to enable the Admin mode or will continue with the Customer role
+#Will ask user if he/she wants to enable the Admin mode or will continue with the Customer role
 authflag=input()
 if authflag=='y':
     print("Please Enter the Password: ")
